@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_1000015000200003000030000</name>
+   <tag></tag>
+   <elementGuidId>fbc81009-f235-493f-8a6a-24f04733d553</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div._3uDYxP > select._2YxCDZ</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='container']/div/div[3]/div/div/div/div/div/section[2]/div[4]/div[3]/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>dc8978d0-7596-4d32-8a87-f7bdf66810a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_2YxCDZ</value>
+      <webElementGuid>3daa50a2-c2f7-4c20-8abd-56ae6698ce44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>₹10000₹15000₹20000₹30000₹30000+</value>
+      <webElementGuid>dc81d51e-6837-4f77-99aa-2afd389105cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;container&quot;)/div[1]/div[@class=&quot;_36fx1h _6t1WkM _3HqJxg&quot;]/div[@class=&quot;_1YokD2 _2GoDe3&quot;]/div[@class=&quot;_1YokD2 _3Mn1Gg col-2-12&quot;]/div[@class=&quot;_1YokD2 _3Mn1Gg col-12-12&quot;]/div[@class=&quot;_1AtVbE col-12-12&quot;]/div[@class=&quot;_1KOcBL&quot;]/section[@class=&quot;_2yz7eI _2hbLCH&quot;]/div[@class=&quot;_2b0bUo&quot;]/div[@class=&quot;_3uDYxP&quot;]/select[@class=&quot;_2YxCDZ&quot;]</value>
+      <webElementGuid>5c4a2e94-3cce-4cee-b87e-1a6afa9cbe50</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='container']/div/div[3]/div/div/div/div/div/section[2]/div[4]/div[3]/select</value>
+      <webElementGuid>f1948431-04fd-4c23-b6b3-11b4f79aa3ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='to'])[1]/following::select[1]</value>
+      <webElementGuid>bc5aa52d-5988-4bcd-913b-3bb9c1445bef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='.'])[6]/following::select[2]</value>
+      <webElementGuid>9a7168ee-9b08-4241-b6c3-1c063b56da8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Brand'])[1]/preceding::select[1]</value>
+      <webElementGuid>44c6002a-d907-4d8b-b304-780d5c3c8e62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='✕'])[2]/preceding::select[1]</value>
+      <webElementGuid>0c56f3b8-205b-4662-a721-2a2d78c6ae3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/select</value>
+      <webElementGuid>e38db78a-c194-4d33-a6a8-04005d3990b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = '₹10000₹15000₹20000₹30000₹30000+' or . = '₹10000₹15000₹20000₹30000₹30000+')]</value>
+      <webElementGuid>7adef232-82db-4f2d-992e-8c8c49271f38</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="amazon_DemoSuite" time="85.08" tests="1" failures="0" errors="0">
+   <testsuite name="amazon_DemoSuite" tests="1" failures="0" errors="0" time="85.08" skipped="0" timestamp="2023-06-15 13:58:41" hostname="salin - SalineeKumariNayak" id="Test Suites/amazon_DemoSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="S:\\Downloads\\Salinee_AmazonAutomation\\AmazonAutomation\\Reports\\20230615_135838\\amazon_DemoSuite\\20230615_135839"/>
+         <property name="logFiles" value="S:\\Downloads\\Salinee_AmazonAutomation\\AmazonAutomation\\Reports\\20230615_135838\\amazon_DemoSuite\\20230615_135839\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="salin - SalineeKumariNayak"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="172.26.1.249"/>
+         <property name="sessionId" value="cd5149b835f79e0c236181b56b25273c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/AmazonE2EFLow/AmazonAutomation" time="84.89" classname="Test Cases/AmazonE2EFLow/AmazonAutomation" status="PASSED">
+         <system-out><![CDATA[2023-06-15 13:58:41 - [TEST_CASE][PASSED] - Test Cases/AmazonE2EFLow/AmazonAutomation: Test Cases/AmazonE2EFLow/AmazonAutomation
+
+2023-06-15 13:58:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-15 13:58:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-15 13:58:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-15 13:58:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-15 13:58:43 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/", STOP_ON_FAILURE): Navigate to 'https://www.amazon.in/' successfully
+
+2023-06-15 13:58:48 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+2023-06-15 13:58:48 - [TEST_STEP][PASSED] - Title = getWindowTitle(STOP_ON_FAILURE): Current window's title is: 'Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in'
+
+2023-06-15 13:58:48 - [MESSAGE][PASSED] - Current window's title is: 'Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in'
+
+2023-06-15 13:58:48 - [TEST_STEP][PASSED] - println("Title of the page: " + Title): null
+
+2023-06-15 13:58:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonLocators/Singin_Button")): Object: 'Object Repository/AmazonLocators/Singin_Button' is clicked on
+
+2023-06-15 13:58:49 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonLocators/Singin_Button' is clicked on
+
+2023-06-15 13:58:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmazonLocators/userName"), "Salineenayakwork@gmail.com", STOP_ON_FAILURE): Text 'Salineenayakwork@gmail.com' is set on object 'Object Repository/AmazonLocators/userName'
+
+2023-06-15 13:58:51 - [MESSAGE][PASSED] - Text 'Salineenayakwork@gmail.com' is set on object 'Object Repository/AmazonLocators/userName'
+
+2023-06-15 13:58:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonLocators/ContinueButton")): Object: 'Object Repository/AmazonLocators/ContinueButton' is clicked on
+
+2023-06-15 13:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonLocators/ContinueButton' is clicked on
+
+2023-06-15 13:58:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/AmazonLocators/password"), "vshmLYV0ToJUwW6s7TkGWw==", STOP_ON_FAILURE): Text ****** has been set on object 'Object Repository/AmazonLocators/password'
+
+2023-06-15 13:58:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AmazonLocators/password'
+
+2023-06-15 13:58:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonLocators/passwordSignin")): Object: 'Object Repository/AmazonLocators/passwordSignin' is clicked on
+
+2023-06-15 13:58:54 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonLocators/passwordSignin' is clicked on
+
+2023-06-15 13:58:54 - [TEST_STEP][PASSED] - emailerror = getText(findTestObject("Object Repository/AmazonLocators/EmailError")): Text of object 'Object Repository/AmazonLocators/EmailError' is: 'To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below.'
+
+2023-06-15 13:58:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/AmazonLocators/EmailError' is: 'To better protect your account, please re-enter your password and then enter the characters as they are shown in the image below.'
+
+2023-06-15 13:58:57 - [TEST_STEP][PASSED] - println("Account verification: " + emailerror): null
+
+2023-06-15 13:58:57 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2023-06-15 13:58:58 - [MESSAGE][PASSED] - Browser is closed
+
+2023-06-15 13:58:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-15 13:58:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-15 13:58:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-15 13:58:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-15 13:58:59 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/", STOP_ON_FAILURE): Navigate to 'https://www.amazon.in/' successfully
+
+2023-06-15 13:59:03 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+2023-06-15 13:59:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-15 13:59:03 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-15 13:59:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonLocators/allMenu")): Object: 'Object Repository/AmazonLocators/allMenu' is clicked on
+
+2023-06-15 13:59:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonLocators/allMenu' is clicked on
+
+2023-06-15 13:59:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/AmazonLocators/scrollTOsignin"), 0): Scroll to object 'Object Repository/AmazonLocators/scrollTOsignin' successfully
+
+2023-06-15 13:59:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-15 13:59:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/AmazonLocators/scrollTOsignin' successfully
+
+2023-06-15 13:59:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonLocators/close")): Object: 'Object Repository/AmazonLocators/close' is clicked on
+
+2023-06-15 13:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonLocators/close' is clicked on
+
+2023-06-15 13:59:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonLocators/searchBar"), STOP_ON_FAILURE): Object: 'Object Repository/AmazonLocators/searchBar' is clicked on
+
+2023-06-15 13:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonLocators/searchBar' is clicked on
+
+2023-06-15 13:59:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmazonLocators/searchBar"), "pen"): Text 'pen' is set on object 'Object Repository/AmazonLocators/searchBar'
+
+2023-06-15 13:59:07 - [MESSAGE][PASSED] - Text 'pen' is set on object 'Object Repository/AmazonLocators/searchBar'
+
+2023-06-15 13:59:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/AmazonLocators/searchBar"), Keys.chord(ENTER), STOP_ON_FAILURE): Keys 'ENTER + ' sent to object: 'Object Repository/AmazonLocators/searchBar'
+
+2023-06-15 13:59:09 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/AmazonLocators/searchBar'
+
+2023-06-15 13:59:09 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("Object Repository/AmazonLocators/checkbox"), 2): Object 'Object Repository/AmazonLocators/checkbox' is not checked
+
+2023-06-15 13:59:11 - [MESSAGE][PASSED] - Object 'Object Repository/AmazonLocators/checkbox' is not checked
+
+2023-06-15 13:59:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonLocators/checkbox")): Object: 'Object Repository/AmazonLocators/checkbox' is clicked on
+
+2023-06-15 13:59:13 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonLocators/checkbox' is clicked on
+
+2023-06-15 13:59:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-15 13:59:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-15 13:59:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/AmazonLocators/selectOnePen"), 5, STOP_ON_FAILURE): Object 'Object Repository/AmazonLocators/selectOnePen' is visible
+
+2023-06-15 13:59:15 - [MESSAGE][PASSED] - Object 'Object Repository/AmazonLocators/selectOnePen' is visible
+
+2023-06-15 13:59:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonLocators/selectOnePen")): Object: 'Object Repository/AmazonLocators/selectOnePen' is clicked on
+
+2023-06-15 13:59:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonLocators/selectOnePen' is clicked on
+
+2023-06-15 13:59:16 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2023-06-15 13:59:16 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-06-15 13:59:16 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2023-06-15 13:59:46 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2023-06-15 13:59:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AmazonLocators/addToCart"), 5): Object 'Object Repository/AmazonLocators/addToCart' is present
+
+2023-06-15 13:59:46 - [MESSAGE][PASSED] - Object 'Object Repository/AmazonLocators/addToCart' is present
+
+2023-06-15 13:59:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonLocators/addToCart")): Object: 'Object Repository/AmazonLocators/addToCart' is clicked on
+
+2023-06-15 13:59:48 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonLocators/addToCart' is clicked on
+
+2023-06-15 13:59:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-06-15 13:59:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-06-15 13:59:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/AmazonLocators/ProceedToCheckout"), 10, STOP_ON_FAILURE): Object 'Object Repository/AmazonLocators/ProceedToCheckout' is visible
+
+2023-06-15 13:59:53 - [MESSAGE][PASSED] - Object 'Object Repository/AmazonLocators/ProceedToCheckout' is visible
+
+2023-06-15 13:59:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmazonLocators/ProceedToCheckout")): Object: 'Object Repository/AmazonLocators/ProceedToCheckout' is clicked on
+
+2023-06-15 13:59:55 - [MESSAGE][PASSED] - Object: 'Object Repository/AmazonLocators/ProceedToCheckout' is clicked on
+
+2023-06-15 13:59:55 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-06-15 14:00:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-06-15 14:00:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-15 14:00:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-15 13:58:41 - [TEST_SUITE][PASSED] - amazon_DemoSuite: Test Cases/AmazonE2EFLow/AmazonAutomation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

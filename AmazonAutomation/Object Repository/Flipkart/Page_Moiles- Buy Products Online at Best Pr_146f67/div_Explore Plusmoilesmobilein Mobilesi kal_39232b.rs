@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Explore Plusmoilesmobilein Mobilesi kal_39232b</name>
+   <tag></tag>
+   <elementGuidId>f3e312f3-5e08-4506-9a5f-d34e88121b49</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div._2Xfa2_</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='container']/div/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fda11bdc-1f44-41ba-b2e4-6657a8b54b3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_2Xfa2_</value>
+      <webElementGuid>1feb2327-d008-4ee1-ae18-d2ab005c3a0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Explore Plusmoilesmobilein Mobilesi kall mobilemobile standmobile phone 5gmobile phonemobiles 5gkeypad mobilesLoginBecome a Seller More Cart</value>
+      <webElementGuid>a557332a-cb2b-4b27-9f18-2dc03369472d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;container&quot;)/div[1]/div[@class=&quot;_1kfTjk&quot;]/div[@class=&quot;_1rH5Jn&quot;]/div[@class=&quot;_2Xfa2_&quot;]</value>
+      <webElementGuid>ffe25175-0e64-410f-a70c-24e6e6be140e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='container']/div/div/div/div[2]</value>
+      <webElementGuid>8a9215b5-d703-46a1-9391-aec740acea76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div[2]</value>
+      <webElementGuid>f8a025b3-2278-43ae-8b7a-19de441fd7a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Explore Plusmoilesmobilein Mobilesi kall mobilemobile standmobile phone 5gmobile phonemobiles 5gkeypad mobilesLoginBecome a Seller More Cart' or . = 'Explore Plusmoilesmobilein Mobilesi kall mobilemobile standmobile phone 5gmobile phonemobiles 5gkeypad mobilesLoginBecome a Seller More Cart')]</value>
+      <webElementGuid>eec8cf23-b6ec-4b90-bd43-05d4bb45a35c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

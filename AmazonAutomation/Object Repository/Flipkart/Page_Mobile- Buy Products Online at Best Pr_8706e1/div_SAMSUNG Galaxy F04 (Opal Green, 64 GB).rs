@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_SAMSUNG Galaxy F04 (Opal Green, 64 GB)</name>
+   <tag></tag>
+   <elementGuidId>dbe39905-ec21-42c7-9718-33cf6372f5e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div._4rR01T</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div[3]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>43879968-4435-410b-8a32-d35bd3a3a648</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_4rR01T</value>
+      <webElementGuid>b66d2aad-0e92-469d-81df-4bc179728301</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SAMSUNG Galaxy F04 (Opal Green, 64 GB)</value>
+      <webElementGuid>e4728b04-ba24-4677-9b6c-80241469baf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;container&quot;)/div[1]/div[@class=&quot;_36fx1h _6t1WkM _3HqJxg&quot;]/div[@class=&quot;_1YokD2 _2GoDe3&quot;]/div[@class=&quot;_1YokD2 _3Mn1Gg&quot;]/div[@class=&quot;_1AtVbE col-12-12&quot;]/div[@class=&quot;_13oc-S&quot;]/div[1]/div[@class=&quot;_2kHMtA&quot;]/a[@class=&quot;_1fQZEK&quot;]/div[@class=&quot;_3pLy-c row&quot;]/div[@class=&quot;col col-7-12&quot;]/div[@class=&quot;_4rR01T&quot;]</value>
+      <webElementGuid>2eb8c8c7-5c7b-40a2-884e-d0bb043c3d05</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div[3]/div/div</value>
+      <webElementGuid>0b1be1b3-3569-4a25-b62f-2353ec82d5b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Compare'])[1]/following::div[5]</value>
+      <webElementGuid>f601cea6-b4c7-4fd7-b672-59e3e8f56953</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Newest First'])[1]/following::div[17]</value>
+      <webElementGuid>cc655363-5316-4ca7-89f5-0adf0b786660</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='&amp;'])[1]/preceding::div[2]</value>
+      <webElementGuid>4805cec2-bc21-4b33-8ccf-a4e3563c7e46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mediatek Helio P35 Processor'])[1]/preceding::div[3]</value>
+      <webElementGuid>4054f0cd-baa8-4d37-b8d2-c701382d3dca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SAMSUNG Galaxy F04 (Opal Green, 64 GB)']/parent::*</value>
+      <webElementGuid>5bc898dd-cdb4-4790-9d07-a6672674c1db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div[3]/div/div</value>
+      <webElementGuid>d356500e-0d5f-47af-b4f8-64d3e09319c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'SAMSUNG Galaxy F04 (Opal Green, 64 GB)' or . = 'SAMSUNG Galaxy F04 (Opal Green, 64 GB)')]</value>
+      <webElementGuid>02b4b246-cc79-4efe-b89e-86df9ae0c185</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

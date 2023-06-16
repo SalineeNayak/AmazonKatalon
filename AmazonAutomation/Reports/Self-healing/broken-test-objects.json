@@ -1,0 +1,34 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AmazonLocators/Page_Amazon.in Pen - Get It In 2 Days/img_Choice_s-image",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[3]/div/div/div/div/div[2]/span/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@alt\u003d\u0027Cello Bling Pastel Ball Pen | Blue Ball Pen | Jar of 25 Units | Best Ball Pens for Smooth Writing | Ball Point Pen Set | P...\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AmazonLocators/Page_Amazon.in Pen - Get It In 2 Days/img_Choice_s-image_img.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AmazonLocators/Page_Cello Bling Pastel Ball Pen  Blue Ball_807012/span_120",
+      "brokenLocator": "//div[@id\u003d\u0027corePriceDisplay_desktop_feature_div\u0027]/div/span[2]/span[2]/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027₹\u0027])[7]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AmazonLocators/Page_Cello Bling Pastel Ball Pen  Blue Ball_807012/span_120_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AmazonLocators/Page_Cello Bling Pastel Ball Pen  Blue Ball_807012/select_1        2        3        4        _45ea30",
+      "brokenLocator": "//select[@id\u003d\u0027quantity\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027₹\u0027])[2]/preceding::select[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AmazonLocators/Page_Cello Bling Pastel Ball Pen  Blue Ball_807012/select_1        2        3        4        _45ea30_neighbor.png"
+    }
+  ]
+}

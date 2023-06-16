@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_120</name>
+   <tag></tag>
+   <elementGuidId>b5b82834-fb4d-48cf-a1d6-10e9e503ed57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.a-price.aok-align-center.reinventPricePriceToPayMargin.priceToPay > span:nth-of-type(2) > span.a-price-whole</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='corePriceDisplay_desktop_feature_div']/div/span[2]/span[2]/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1f9cc405-116d-4404-8292-23cbffdf73b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-price-whole</value>
+      <webElementGuid>e28fbb29-7aab-4810-b2c6-740d539b9585</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>120</value>
+      <webElementGuid>0ee009ea-a54a-4658-bf07-8d366ac68032</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;corePriceDisplay_desktop_feature_div&quot;)/div[@class=&quot;a-section a-spacing-none aok-align-center&quot;]/span[@class=&quot;a-price aok-align-center reinventPricePriceToPayMargin priceToPay&quot;]/span[2]/span[@class=&quot;a-price-whole&quot;]</value>
+      <webElementGuid>2f1c375d-6161-4366-aa26-9276c7c4b395</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='corePriceDisplay_desktop_feature_div']/div/span[2]/span[2]/span[2]</value>
+      <webElementGuid>25e7b61c-6fb7-49ec-a6e2-2a5acb0ba49e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹'])[7]/following::span[1]</value>
+      <webElementGuid>853b46a9-c95e-4fa9-9025-63f176ac84ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹120'])[1]/following::span[3]</value>
+      <webElementGuid>fbb6c7b8-3338-4514-85ab-c98459a73195</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹150'])[1]/preceding::span[2]</value>
+      <webElementGuid>cb9b547f-f12f-45be-a038-6ba1d371ecb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/span[2]/span[2]/span[2]</value>
+      <webElementGuid>cf13a88d-2f9e-49e3-9236-b00e64d4c257</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '120' or . = '120')]</value>
+      <webElementGuid>b16f049f-492b-45cc-8f51-9f9a768f4e4b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
