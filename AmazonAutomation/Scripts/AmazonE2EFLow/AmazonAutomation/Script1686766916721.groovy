@@ -17,45 +17,45 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser("")
+WebUI.openBrowser('')
 
-WebUI.navigateToUrl("https://www.amazon.in/", FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl('https://www.amazon.in/', FailureHandling.STOP_ON_FAILURE)
 
-String Title= WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
+String Title = WebUI.getWindowTitle(FailureHandling.STOP_ON_FAILURE)
 
-println("Title of the page: " + Title)
+println('Title of the page: ' + Title)
 
 WebUI.click(findTestObject('Object Repository/AmazonLocators/Singin_Button'))
 
-WebUI.setText(findTestObject('Object Repository/AmazonLocators/userName'), "Salineenayakwork@gmail.com", FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/AmazonLocators/userName'), 'Salineenayakwork@gmail.com', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/AmazonLocators/ContinueButton'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/AmazonLocators/password'), "vshmLYV0ToJUwW6s7TkGWw==", FailureHandling.STOP_ON_FAILURE)
+WebUI.setEncryptedText(findTestObject('Object Repository/AmazonLocators/password'), 'vshmLYV0ToJUwW6s7TkGWw==', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/AmazonLocators/passwordSignin'))
 
-emailerror= WebUI.getText(findTestObject('Object Repository/AmazonLocators/EmailError'))
+emailerror = WebUI.getText(findTestObject('Object Repository/AmazonLocators/EmailError'))
 
-println("Account verification: "+emailerror )
+println('Account verification: ' + emailerror)
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.openBrowser("")
+WebUI.openBrowser('')
 
-WebUI.navigateToUrl("https://www.amazon.in/", FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl('https://www.amazon.in/', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/AmazonLocators/allMenu'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/AmazonLocators/scrollTOsignin') , 0)
+WebUI.scrollToElement(findTestObject('Object Repository/AmazonLocators/scrollTOsignin'), 0)
 
 WebUI.click(findTestObject('Object Repository/AmazonLocators/close'))
 
-WebUI.click(findTestObject('Object Repository/AmazonLocators/searchBar') , FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/AmazonLocators/searchBar'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/AmazonLocators/searchBar') , "pen")
+WebUI.setText(findTestObject('Object Repository/AmazonLocators/searchBar'), 'pen')
 
 WebUI.sendKeys(findTestObject('Object Repository/AmazonLocators/searchBar'), Keys.chord(Keys.ENTER), FailureHandling.STOP_ON_FAILURE)
 
@@ -65,7 +65,7 @@ WebUI.click(findTestObject('Object Repository/AmazonLocators/checkbox'))
 
 WebUI.delay(2)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/AmazonLocators/selectOnePen') , 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Object Repository/AmazonLocators/selectOnePen'), 5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/AmazonLocators/selectOnePen'))
 
@@ -79,18 +79,13 @@ WebUI.click(findTestObject('Object Repository/AmazonLocators/addToCart'))
 
 WebUI.delay(5)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/AmazonLocators/ProceedToCheckout') , 10, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Object Repository/AmazonLocators/ProceedToCheckout'), 10, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/AmazonLocators/ProceedToCheckout'))
 
 WebUI.delay(10)
 
 WebUI.closeBrowser()
-
-
-
-
-
-
-
 
